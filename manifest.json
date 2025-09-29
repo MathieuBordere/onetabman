@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "OneTabMan",
+  "version": "1.0.0",
+  "description": "Enforces a single tab per browser window",
+  "permissions": [
+    "tabs"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
