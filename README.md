@@ -5,6 +5,8 @@ A browser extension that only allows a single tab in a browser window.
 In case you're really desperate to open a second tab, you can still open a
 new browser window, or make use of a bug. In the latter case, a fix is very welcome.
 
+Get it at the [Chrome Web Store](https://chromewebstore.google.com/detail/onetabman/nbcndekkobbjhiaklgflkahcchoboldl?authuser=0&hl=en&pli=1)
+
 ## Disclaimer
 
 This is "vibecoded" with Claude. I have created this extension to improve my focus. I claim that it works for me.
