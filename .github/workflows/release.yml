@@ -18,6 +18,10 @@ jobs:
         id: get_tag
         run: echo "tag=${GITHUB_REF#refs/tags/}" >> $GITHUB_ENV
 
+      # Test if manifest version is the same as the tag without the leading 'v'
+      - name: check manifest
+        run: grep \"version\" manifest.json | grep ${${{ env.tag }}#v}
+
       - name: zip
         run: |
           zip -r "${{ env.tag }}.zip" manifest.json background.js icons/icon128.png icons/icon48.png icons/icon16.png
